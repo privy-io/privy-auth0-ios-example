@@ -46,7 +46,11 @@ struct WalletView: View {
                     case .connecting:
                         ConnectingView()
                     case .creating:
-                        CreatingView()
+                        if privyManager.wallets.isEmpty {
+                            CreatingView()
+                        } else {
+                            connectedView()
+                        }
                     case .recovering:
                         RecoveringView()
                     case .disconnected:
