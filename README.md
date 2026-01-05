@@ -1,5 +1,7 @@
 # Privy + Auth0 iOS example app
 
+> **This repository is archived.** For up-to-date examples, please visit [github.com/privy-io/examples](https://github.com/privy-io/examples).
+
 This app demonstrates the usage of the PrivySDK alongside Auth0 as a
 [custom auth provider](https://docs.privy.io/guide/guides/swift-sdk#login-with-custom-authentication)
 
